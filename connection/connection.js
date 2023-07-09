@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-connection = mongoose.connect('mongodb://localhost:27017/UserDB', {
+connection = mongoose.connect('mongodb+srv://dhiwarebhushan8:HwGLi8O3F4O42cRx@cluster0.jsu8uai.mongodb.net/?retryWrites=true&w=majority', {
         useNewUrlParser: true
     })
     .then(() => {
